@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMOS.com</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>FAMOS</h1>
+            
+            <nav id="menu">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="musicos.html"><li>Músicos</li></a>
+                <a href="dancarinos.html"><li>Dançarinos</li></a>
+                <a href="desenhistas.html"><li>Desenhistas</li></a>
+                <a href="add.html"><li>Adicionar artista</li></a>
+            </ul>
+        </nav>
+        </header>
+ <section>
+        <form method="POST" id="fContato">
+        <fieldset id="add">  
+            <legend>Adicionar artista</legend>
+            <label>Nome:</label>
+            <input type="name">
+            <br>
+            <br>
+            <label>Idade:</label>
+            <input type="age">
+            <br>
+            <br>
+            <label>Categoria:</label>
+            <input type="radio" name="opcao" value="selectA" checked>Músicos
+            <input type="radio" name="opcao" value="selectA" checked>Dançarinos
+            <input type="radio" name="opcao" value="selectC">Desenhistas
+            <br>
+            <br>
+            <label>Foto</label>
+            <input type="file">  
+            <br>
+            <br>
+            <label>Instagran(link)</label>         
+            <input type="text">
+            <br>
+            <br>
+            <p><label for="cMsg">Sobre você</label>
+            <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Diga um pouco sobe você"></textarea></p>
+
+        <input type="button" name="tEnviar" value="ENVIAR"/>
+    </form>
+       <br><br><br><br><br><br>
+    </section>
+       
+        <script type="text/javascript" src="jsdapag.js"></script>
+</body>
+</html>
